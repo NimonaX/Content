@@ -38,5 +38,5 @@ The main idea of a data lake is to store everything in its original, untransform
 
 A data warehouse is a centralized repository designed for storing, processing, and analyzing structured data from multiple sources. It is optimized for analytical queries and business intelligence (BI), enabling organizations to make data-driven decisions.
 
+![image](https://github.com/user-attachments/assets/708ff3a9-eb9a-4e6e-ac19-a807c80da3db)
 
-![Alt Text](images\azuredata.png)
