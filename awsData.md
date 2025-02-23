@@ -32,4 +32,4 @@ B. Register the S3 bucket as a data lake location in AWS Lake Formation. Use the
 C. Move the data to AWS Regions that are close to the countries where the customers are. Provide access to each analyst based on the country that the analyst serves.
 D. Load the data into Amazon Redshift. Create a view for each country. Create separate IAM roles for each country to provide access to data from each country.
  Assign the appropriate roles to the analysts.
-``
+```
