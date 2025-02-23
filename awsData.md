@@ -33,3 +33,18 @@ C. Move the data to AWS Regions that are close to the countries where the custom
 D. Load the data into Amazon Redshift. Create a view for each country. Create separate IAM roles for each country to provide access to data from each country.
  Assign the appropriate roles to the analysts.
 ```
+
+<details>
+  <summary>Click to See the Answer</summary>
+
+✅ **Correct Answer: B Register the S3 bucket as a data lake location in AWS Lake Formation.**  
+
+**Reason:**  
+- Lowest operational effort as it uses built-in features
+- Maintains single source of truth
+- No data migration required
+- Row-level security is precisely designed for this use case
+- Native integration with S3
+- Centralized governance and access control
+
+</details>
