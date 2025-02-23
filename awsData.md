@@ -1,6 +1,6 @@
 # AWS Data Engineer Question Answer
 
-**A data engineer is configuring an AWS Glue job to read data from an Amazon S3 bucket. The data engineer has set up the necessary AWS Glue connection details and an associated IAM role. However, when the data engineer attempts to run the AWS Glue job, the data engineer receives an error message that indicates that there are problems with the Amazon S3 VPC gateway endpoint.
+**1. A data engineer is configuring an AWS Glue job to read data from an Amazon S3 bucket. The data engineer has set up the necessary AWS Glue connection details and an associated IAM role. However, when the data engineer attempts to run the AWS Glue job, the data engineer receives an error message that indicates that there are problems with the Amazon S3 VPC gateway endpoint.
 The data engineer must resolve the error and connect the AWS Glue job to the S3 bucket.
 Which solution will meet this requirement?**
 
@@ -21,3 +21,13 @@ D. Verify that the VPC's route table includes inbound and outbound routes for th
 - Ensures **inbound & outbound routing** for S3 access via the gateway endpoint.  
 
 </details>
+
+**2. A retail company has a customer data hub in an Amazon S3 bucket. Employees from many countries use the data hub to support company-wide analytics. A governance team must ensure that the company's data analysts can access data only for customers who are within the same country as the analysts.
+Which solution will meet these requirements with the LEAST operational effort?**
+
+```
+A. Create a separate table for each country's customer data. Provide access to each analyst based on the country that the analyst serves.
+B. Register the S3 bucket as a data lake location in AWS Lake Formation. Use the Lake Formation row-level security features to enforce the company's access policies.
+C. Move the data to AWS Regions that are close to the countries where the customers are. Provide access to each analyst based on the country that the analyst serves.
+D. Load the data into Amazon Redshift. Create a view for each country. Create separate IAM roles for each country to provide access to data from each country. Assign the appropriate roles to the analysts.
+``
