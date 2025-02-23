@@ -1,8 +1,8 @@
 # AWS Data Engineer Question Answer
 
-** A data engineer is configuring an AWS Glue job to read data from an Amazon S3 bucket. The data engineer has set up the necessary AWS Glue connection details and an associated IAM role. However, when the data engineer attempts to run the AWS Glue job, the data engineer receives an error message that indicates that there are problems with the Amazon S3 VPC gateway endpoint.
+**A data engineer is configuring an AWS Glue job to read data from an Amazon S3 bucket. The data engineer has set up the necessary AWS Glue connection details and an associated IAM role. However, when the data engineer attempts to run the AWS Glue job, the data engineer receives an error message that indicates that there are problems with the Amazon S3 VPC gateway endpoint.
 The data engineer must resolve the error and connect the AWS Glue job to the S3 bucket.
-Which solution will meet this requirement? **
+Which solution will meet this requirement?**
 
 ```
 A. Update the AWS Glue security group to allow inbound traffic from the Amazon S3 VPC gateway endpoint.
