@@ -22,12 +22,14 @@ D. Verify that the VPC's route table includes inbound and outbound routes for th
 
 </details>
 
-**2. A retail company has a customer data hub in an Amazon S3 bucket. Employees from many countries use the data hub to support company-wide analytics. A governance team must ensure that the company's data analysts can access data only for customers who are within the same country as the analysts.
+**2. A retail company has a customer data hub in an Amazon S3 bucket. Employees from many countries use the data hub to support company-wide analytics. 
+A governance team must ensure that the company's data analysts can access data only for customers who are within the same country as the analysts.
 Which solution will meet these requirements with the LEAST operational effort?**
 
 ```
 A. Create a separate table for each country's customer data. Provide access to each analyst based on the country that the analyst serves.
 B. Register the S3 bucket as a data lake location in AWS Lake Formation. Use the Lake Formation row-level security features to enforce the company's access policies.
 C. Move the data to AWS Regions that are close to the countries where the customers are. Provide access to each analyst based on the country that the analyst serves.
-D. Load the data into Amazon Redshift. Create a view for each country. Create separate IAM roles for each country to provide access to data from each country. Assign the appropriate roles to the analysts.
+D. Load the data into Amazon Redshift. Create a view for each country. Create separate IAM roles for each country to provide access to data from each country.
+ Assign the appropriate roles to the analysts.
 ``
