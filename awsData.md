@@ -10,3 +10,14 @@ B. Configure an S3 bucket policy to explicitly grant the AWS Glue job permission
 C. Review the AWS Glue job code to ensure that the AWS Glue connection details include a fully qualified domain name.
 D. Verify that the VPC's route table includes inbound and outbound routes for the Amazon S3 VPC gateway endpoint.
 ```
+<details>
+  <summary>Click to See the Answer</summary>
+
+✅ **Correct Answer: D – Verify Route Table Configuration**  
+
+**Reason:**  
+- VPC **gateway endpoints require proper route table entries** to function.  
+- Route tables **must include S3 prefix lists** to direct traffic correctly.  
+- Ensures **inbound & outbound routing** for S3 access via the gateway endpoint.  
+
+</details>
