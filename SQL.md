@@ -48,11 +48,21 @@ HAVING
   - Works with aggregated results
   - Can use aggregate functions like SUM, AVG, COUNT
 
-**Show the city and the total number of patients in the city. Order from most to least patients and then by city name ascending.**
+
+### 4.Show the city and the total number of patients in the city. Order from most to least patients and then by city name ascending.
 ```
 SELECT city, COUNT(*) AS total_patients
 FROM patients
 GROUP BY city
 ORDER BY total_patients DESC, city ASC;
 ```
+
+### 5. Show all patient's first_name, last_name, and birth_date who were born in the 1970s decade. Sort the list starting from the earliest birth_date.
+
+```
+select first_name, last_name, birth_date from patients where birth_date between '1970-01-01' AND '1979-12-31'
+order by birth_date asc;
+```
+
+
 
